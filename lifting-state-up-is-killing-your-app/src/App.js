@@ -46,6 +46,10 @@ class Field {
   subscribeCellUpdates(rowI, cellI, onSetCellCallback) {
     this.subscribers[this._cellSubscriberId(rowI, cellI)] = onSetCellCallback
   }
+
+  unsubscribeCellUpdates(rowI, cellI) {
+    delete this.subscribers[this._cellSubscriberId(rowI, cellI)]
+  }
 }
 
 const field = new Field(size)
@@ -58,11 +62,10 @@ const useForceRender = () => {
 const Cell = ({ cellI, rowI }) => {
   console.log('cell rendered')
   const forceRender = useForceRender()
-  useEffect(() => field.subscribeCellUpdates(rowI, cellI, forceRender), [
-    forceRender,
-    rowI,
-    cellI,
-  ])
+  useEffect(() => {
+    field.subscribeCellUpdates(rowI, cellI, forceRender)
+    return () => field.unsubscribeCellUpdates(rowI, cellI)
+  }, [forceRender, rowI, cellI])
   return (
     <div className="cell" onClick={() => field.setCell(rowI, cellI, '✔')}>
       {field.cellContent(rowI, cellI)}
