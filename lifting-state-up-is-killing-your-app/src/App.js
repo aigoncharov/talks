@@ -21,9 +21,10 @@ export const App = () => {
   return (
     <div>
       {field.map((row, rowI) => (
-        <div className="row">
+        <div className="row" key={rowI}>
           {row.map((cell, cellI) => (
             <Cell
+              key={`row${rowI}cell${cellI}`}
               content={cell}
               setContent={(newContent) =>
                 setField([
