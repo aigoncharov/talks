@@ -4,11 +4,14 @@ import './App.css'
 
 const size = 10
 
-const Cell = ({ content, setContent }) => (
-  <div className="cell" onClick={() => setContent('✔')}>
-    {content}
-  </div>
-)
+const Cell = ({ content, setContent }) => {
+  console.log('cell rendered')
+  return (
+    <div className="cell" onClick={() => setContent('✔')}>
+      {content}
+    </div>
+  )
+}
 
 const initialField = new Array(size).fill(new Array(size).fill(undefined))
 
