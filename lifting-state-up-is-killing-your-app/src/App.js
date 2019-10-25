@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 
 import './App.css'
 
 const size = 10
 
-const Cell = ({ content, setContent }) => {
+const Cell = ({ content, setContent, cellI, rowI }) => {
   console.log('cell rendered')
   return (
-    <div className="cell" onClick={() => setContent('✔')}>
+    <div className="cell" onClick={() => setContent(rowI, cellI, '✔')}>
       {content}
     </div>
   )
@@ -18,6 +18,20 @@ const initialField = new Array(size).fill(new Array(size).fill(undefined))
 export const App = () => {
   const [field, setField] = useState(initialField)
 
+  const setCell = useCallback(
+    (rowI, cellI, newContent) =>
+      setField((oldField) => [
+        ...oldField.slice(0, rowI),
+        [
+          ...oldField[rowI].slice(0, cellI),
+          newContent,
+          ...oldField[rowI].slice(cellI + 1),
+        ],
+        ...oldField.slice(rowI + 1),
+      ]),
+    [],
+  )
+
   return (
     <div>
       {field.map((row, rowI) => (
@@ -26,17 +40,9 @@ export const App = () => {
             <Cell
               key={`row${rowI}cell${cellI}`}
               content={cell}
-              setContent={(newContent) =>
-                setField([
-                  ...field.slice(0, rowI),
-                  [
-                    ...field[rowI].slice(0, cellI),
-                    newContent,
-                    ...field[rowI].slice(cellI + 1),
-                  ],
-                  ...field.slice(rowI + 1),
-                ])
-              }
+              rowI={rowI}
+              cellI={cellI}
+              setContent={setCell}
             />
           ))}
         </div>
