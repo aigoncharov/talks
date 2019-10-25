@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useReducer, useEffect } from 'react'
 
 import './App.css'
 
@@ -9,6 +9,11 @@ class Field {
     this.size = fieldSize
     // Copy-paste from `initialState`
     this.data = new Array(this.size).fill(new Array(this.size).fill(undefined))
+    this.subscribers = {}
+  }
+
+  _cellSubscriberId(rowI, cellI) {
+    return `row${rowI}cell${cellI}`
   }
 
   cellContent(rowI, cellI) {
@@ -27,17 +32,37 @@ class Field {
       ],
       ...this.data.slice(rowI + 1),
     ]
+    const cellSubscriber = this.subscribers[this._cellSubscriberId(rowI, cellI)]
+    if (cellSubscriber) {
+      cellSubscriber()
+    }
   }
 
   map(cb) {
     return this.data.map(cb)
   }
+
+  // Note that we subscribe not to updates of the whole filed, but to updates of one cell only
+  subscribeCellUpdates(rowI, cellI, onSetCellCallback) {
+    this.subscribers[this._cellSubscriberId(rowI, cellI)] = onSetCellCallback
+  }
 }
 
 const field = new Field(size)
 
+const useForceRender = () => {
+  const [, forceRender] = useReducer((oldVal) => oldVal + 1, 0)
+  return forceRender
+}
+
 const Cell = ({ cellI, rowI }) => {
   console.log('cell rendered')
+  const forceRender = useForceRender()
+  useEffect(() => field.subscribeCellUpdates(rowI, cellI, forceRender), [
+    forceRender,
+    rowI,
+    cellI,
+  ])
   return (
     <div className="cell" onClick={() => field.setCell(rowI, cellI, '✔')}>
       {field.cellContent(rowI, cellI)}
