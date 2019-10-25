@@ -1,8 +1,16 @@
-import React, { useReducer, useEffect } from 'react'
+import React, {
+  useReducer,
+  useEffect,
+  createContext,
+  useState,
+  useContext,
+} from 'react'
 
 import './App.css'
 
 const size = 10
+
+const AppContext = createContext()
 
 class Field {
   constructor(fieldSize) {
@@ -52,8 +60,6 @@ class Field {
   }
 }
 
-const field = new Field(size)
-
 const useForceRender = () => {
   const [, forceRender] = useReducer((oldVal) => oldVal + 1, 0)
   return forceRender
@@ -62,10 +68,11 @@ const useForceRender = () => {
 const Cell = ({ cellI, rowI }) => {
   console.log('cell rendered')
   const forceRender = useForceRender()
+  const field = useContext(AppContext)
   useEffect(() => {
     field.subscribeCellUpdates(rowI, cellI, forceRender)
     return () => field.unsubscribeCellUpdates(rowI, cellI)
-  }, [forceRender, rowI, cellI])
+  }, [forceRender, rowI, cellI, field])
   return (
     <div className="cell" onClick={() => field.setCell(rowI, cellI, '✔')}>
       {field.cellContent(rowI, cellI)}
@@ -74,15 +81,21 @@ const Cell = ({ cellI, rowI }) => {
 }
 
 export const App = () => {
+  // Note how we used a factory to initialize our state here.
+  // Field creation could be quite expensive for big fields.
+  // So we don't want to create it each time we render and block the event loop.
+  const [field] = useState(() => new Field(size))
   return (
-    <div>
-      {field.map((row, rowI) => (
-        <div className="row" key={rowI}>
-          {row.map((cell, cellI) => (
-            <Cell key={`row${rowI}cell${cellI}`} rowI={rowI} cellI={cellI} />
-          ))}
-        </div>
-      ))}
-    </div>
+    <AppContext.Provider value={field}>
+      <div>
+        {field.map((row, rowI) => (
+          <div className="row" key={rowI}>
+            {row.map((cell, cellI) => (
+              <Cell key={`row${rowI}cell${cellI}`} rowI={rowI} cellI={cellI} />
+            ))}
+          </div>
+        ))}
+      </div>
+    </AppContext.Provider>
   )
 }
