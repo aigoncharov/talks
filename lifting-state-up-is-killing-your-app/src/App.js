@@ -1,17 +1,17 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback, memo } from 'react'
 
 import './App.css'
 
 const size = 10
 
-const Cell = ({ content, setContent, cellI, rowI }) => {
+const Cell = memo(({ content, setContent, cellI, rowI }) => {
   console.log('cell rendered')
   return (
     <div className="cell" onClick={() => setContent(rowI, cellI, '✔')}>
       {content}
     </div>
   )
-}
+})
 
 const initialField = new Array(size).fill(new Array(size).fill(undefined))
 
