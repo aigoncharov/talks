@@ -10,6 +10,7 @@ Source code and other accessory materials for my talks.
 | 2020-09-03 | International JavaScript Conference | London, UK | React: Lifting state up is killing your app |  |  |
 | 2020-05-01 | Byteconf React 2020 | Online | React: Lifting state up is killing your app |  |  |
 | 2020-04-28 | Node.js SPb MeetUP11 | Online | Strict mode in TypeScript or help your compiler help you |  |  |
+| 2020-04-20 | International JavaScript Conference (Online Edition) | Online | Strict mode in TypeScript or help your compiler help you |  |  |
 | 2020-02-29 | Panda Meetup Innopolis | Innopolis, Russia | Strict mode in TypeScript or help your compiler help you | [Video](https://www.youtube.com/watch?v=NnOwgRgdBII&t=4512s) | [Photo](https://photos.app.goo.gl/P1zNxZsYMunqDaUx7) |
 | 2020-02-05 | BeerJS Voronezh #2 | Voronezh, Russia | Strict mode in TypeScript or help your compiler help you |  |  |
 | 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) | |
@@ -27,7 +28,7 @@ Have you heard about “lifting state up”? Is it possible that one of the 12 m
 
 - [Slides](https://docs.google.com/presentation/d/1m15mIS0eqShoOGgf3a0OOPUXPNTo0K4JdkG9urouFoI/edit?usp=sharing)
 - [Related article](https://itnext.io/react-lifting-state-up-is-killing-your-app-3ad6f0e1213d)
-- [Source code](https://github.com/aigoncharov/talks/tree/master/lifting-state-up-is-killing-your-app)
+- [Source code](https://github.com/aigoncharov/talks/tree/talk/lifting-state-up-is-killing-your-app/lifting-state-up-is-killing-your-app)
 
 ### React: Form management in 2020
 
