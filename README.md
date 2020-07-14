@@ -24,6 +24,11 @@ Source code and other accessory materials for my talks.
 | 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) |  |
 
 ## Talks
+### How to display a gazillion of metrics and keep your sanity
+
+Imagine a distributed cluster of 100 nodes. Next, imagine that every node collects 100 metrics. Now, imagine a chart with all the metrics from all nodes. Have you managed it? At Hazelcast, we have not ;)
+We will talk about what to do when you want to display all the data at once, but your users have a limited number of monitors and only one pair of eyes. We will speculate about what users actually want to see when they look at a chart of a monitoring web app. We will go over different approaches to filter the data and how an average, a median and a definitive integral can help us with that.
+
 ### React: Lifting state up is killing your app
 
 Have you heard about “lifting state up”? Is it possible that one of the 12 main concepts listed in React official documentation might lead to poor performance? Can well-known best practices lie? We're going to build a simple data grid with React. We will see which pitfalls it hides and when O(1) can still be slow.
