@@ -6,8 +6,8 @@ Source code and other accessory materials for my talks.
 
 | Date | Event | Location | Talk | Video | Photo |
 |------|-------|----------|------|-------|-------|
-| 2020-11-20 | DUMP | Ekaterinburg, Russia | React: Lifting state up is killing your app |  |  |
-| 2020-09-03 | International JavaScript Conference | London, UK | React: Lifting state up is killing your app |  |  |
+| 2020-11-21 | DevFest Siberia 2020 | Online | React: Lifting state up is killing your app | How to display a gazillion of metrics and keep your sanity |  |
+| 2020-09-03 | International JavaScript Conference | Online | React: Lifting state up is killing your app |  |  |
 | 2020-06-25 | React Vienna | Online | React: Lifting state up is killing your app |  |  |
 | 2020-06-02 | JNation 2020 | Online | React: Lifting state up is killing your app |  |  |
 | 2020-05-01 | Byteconf React 2020 | Online | React: Lifting state up is killing your app | [Video](https://youtu.be/gKtr7I1PNIg) |  |
