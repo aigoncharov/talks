@@ -9,7 +9,7 @@ Source code and other accessory materials for my talks.
 | 2020-11-21 | DevFest Siberia 2020 | Online | How to display a gazillion of metrics and keep your sanity |  |  |
 | 2020-09-03 | International JavaScript Conference | Online | React: Lifting state up is killing your app |  |  |
 | 2020-06-25 | React Vienna | Online | React: Lifting state up is killing your app |  |  |
-| 2020-06-02 | JNation 2020 | Online | React: Lifting state up is killing your app |  |  |
+| 2020-06-02 | JNation 2020 | Online | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=Jj7-i5lhMpg) |  |
 | 2020-05-01 | Byteconf React 2020 | Online | React: Lifting state up is killing your app | [Video](https://youtu.be/gKtr7I1PNIg) |  |
 | 2020-04-28 | Node.js SPb MeetUP11 | Online | Strict mode in TypeScript or help your compiler help you | [Video](https://youtu.be/WQpnlpxYhaU?t=4597) |  |
 | 2020-04-20 | International JavaScript Conference (Online Edition) | Online | Strict mode in TypeScript or help your compiler help you |  |  |
