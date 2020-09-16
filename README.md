@@ -15,7 +15,7 @@ Source code and other accessory materials for my talks.
 | 2020-04-20 | International JavaScript Conference (Online Edition) | Online | Strict mode in TypeScript or help your compiler help you |  |  |
 | 2020-02-29 | Panda Meetup #39 Frontend | Innopolis, Russia | Strict mode in TypeScript or help your compiler help you | [Video](https://www.youtube.com/watch?v=NnOwgRgdBII&t=4512s) | [Photo](https://photos.app.goo.gl/P1zNxZsYMunqDaUx7) |
 | 2020-02-05 | BeerJS Voronezh #2 | Voronezh, Russia | Strict mode in TypeScript or help your compiler help you |  |  |
-| 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) | |
+| 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) | [Photo](https://photos.app.goo.gl/Rp2MCaHCBTGZgszA6) |
 | 2019-12-21 | BeerJS Voronezh #1 | Voronezh, Russia | React: Form management in 2020 |  |  |
 | 2019-11-26 | ок.tech: Frontend Meetup #2 | Saint Petersburg, Russia | React: Lifting state up is killing your app | [Video](https://ok.ru/video/2423294659179) | [Photo](https://photos.app.goo.gl/zzvaURZeAcqC1RHv7) |
 | 2019-11-20 | Panda Meetup #31 Frontend | Moscow, Russia | React: Lifting state up is killing your app | [Video](https://youtu.be/xFQf7ULcaT8) | [Photo](https://photos.app.goo.gl/H47RKdFeU7TNQpRD7) |
