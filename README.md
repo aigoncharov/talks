@@ -18,7 +18,7 @@ Source code and other accessory materials for my talks.
 | 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) | |
 | 2019-12-21 | BeerJS Voronezh #1 | Voronezh, Russia | React: Form management in 2020 |  |  |
 | 2019-11-26 | ок.tech: Frontend Meetup #2 | Saint Petersburg, Russia | React: Lifting state up is killing your app | [Video](https://ok.ru/video/2423294659179) | |
-| 2019-11-20 | Panda Meetup #31 Frontend | Moscow, Russia | React: Lifting state up is killing your app | [Video](https://youtu.be/xFQf7ULcaT8) | |
+| 2019-11-20 | Panda Meetup #31 Frontend | Moscow, Russia | React: Lifting state up is killing your app | [Video](https://youtu.be/xFQf7ULcaT8) | [Photo](https://photos.app.goo.gl/H47RKdFeU7TNQpRD7) |
 | 2019-10-26 | Frontdays 2019 | Tolyatti, Russia | React: Lifting state up is killing your app |  |  |
 | 2019-10-18 | RIF VRN 2019 | Voronezh, Russia | NodeJS logging made right | [Video](https://youtu.be/gZw-iGUzKII) |  |
 | 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) |  |
