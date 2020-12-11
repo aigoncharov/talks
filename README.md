@@ -7,7 +7,7 @@ Source code and other accessory materials for my talks.
 | Date | Event | Location | Laguage | Talk | Video | Photo |
 |------|-------|----------|---------|------|-------|-------|
 | 2020-12-06 | DevFest Siberia 2020 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
-| 2020-12-02 | React Finland 2020 - Online Mini-Conference #5 - Performance | Online | EN | React: Lifting state up is killing your app |  |  |
+| 2020-12-02 | React Finland 2020 - Online Mini-Conference #5 - Performance | Online | EN | React: Lifting state up is killing your app |  | [Video](https://www.youtube.com/watch?v=gg2aARkU5yE) |
 | 2020-09-03 | International JavaScript Conference | Online | EN | React: Lifting state up is killing your app |  |  |
 | 2020-06-25 | React Vienna | Online | EN | React: Lifting state up is killing your app |  |  |
 | 2020-06-02 | JNation 2020 | Online | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=Jj7-i5lhMpg) |  |
