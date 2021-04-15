@@ -34,6 +34,7 @@ Say, you have a distributed cluster of 100 nodes. Say, every node collects 100 m
 We will talk about what to do when you want to display all the data at once, but your users have a limited number of monitors and only one pair of eyes. We will speculate about what users actually want to see when they look at a chart of a monitoring web app. We will go over different approaches to filter the data and how an average, a median, and a definite integral can help us with that. 
 
 - [Slides](https://docs.google.com/presentation/d/1d_ScYukUaImbMFfNf_RaDH8MwKVua--Lh8RjLSdAnp8/edit?usp=sharing)
+- [Extended slides](https://docs.google.com/presentation/d/1luD0Iv94XN0k0Tq_GysuTR2dFsV_-rTmgcb9GJKNA3Q/edit#slide=id.g768fa42790_0_118)
 - [Related article](https://blog.goncharov.page/how-to-display-a-gazillion-of-metrics-and-keep-your-sanity)
 
 ### React: Lifting state up is killing your app
