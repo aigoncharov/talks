@@ -6,6 +6,7 @@ Source code and other accessory materials for my talks.
 
 | Date | Event | Location | Laguage | Talk | Video | Photo |
 |------|-------|----------|---------|------|-------|-------|
+| 2021-05-14 | Dump 2021 | Ekaterinburg, Russia | RU | React: Lifting state up is killing your app |  |  |
 | 2021-04-27 | Geekle React JS Case Study Festival | Online | EN | How to display a gazillion of metrics and keep your sanity |  |  |
 | 2021-04-20 | HolyJS Piter 2021 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
 | 2021-01-19 | React Round Up (Podcast) | Online | EN | Data Visualization at Scale | [Audio](https://devchat.tv/react-round-up/rru-131-data-visualization-at-scale-with-andrey-goncharov/) |  |
