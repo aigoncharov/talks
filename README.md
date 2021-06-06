@@ -7,6 +7,7 @@ Source code and other accessory materials for my talks.
 | Date | Event | Location | Laguage | Talk | Video | Photo |
 |------|-------|----------|---------|------|-------|-------|
 | 2021-06-08 | FoxDevs Meetup | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
+| 2021-06-04 | BeerJS Voronezh #4 | Voronezh, Russia | RU | How to advance your career | | [Photo](https://photos.app.goo.gl/2JmfREdGPauDGgPT9) |
 | 2021-05-14 | Dump 2021 | Ekaterinburg, Russia | RU | React: Lifting state up is killing your app |  | [Photo](https://photos.app.goo.gl/o8JRiHdVZetMamVs9) |
 | 2021-04-27 | Geekle React JS Case Study Festival | Online | EN | How to display a gazillion of metrics and keep your sanity |  |  |
 | 2021-04-20 | HolyJS Piter 2021 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
