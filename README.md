@@ -65,7 +65,3 @@ TypeScript compiler has over 90 compiler options. 7 of them are known as strict.
 We will overview each one of the 7, examine what they do in theory and how it applies to real-world applications. We will go over what covariance/contravariance is, how it applies to TypeScript and why `null` is its worst enemy. 
 
 - [Slides](https://docs.google.com/presentation/d/1xOup_X0gWIgfQZm54nABcSP8BqdLF44b3yv3uwh8Hg0/edit?usp=sharing)
-
-## Bio
-
-Andrey is a full-stack TypeScript and JavaScript developer. He came from working in two software consultancies on a variety of projects: from small startups to well-established enterprises. Now he is happy to be a part of a family at Hazelcast. Big lover of open-source. Author of a small technical blog. Runs BeerJS Voronezh.
