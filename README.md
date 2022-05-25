@@ -31,6 +31,12 @@ Source code and other accessory materials for my talks.
 | 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) | [Photo](https://photos.app.goo.gl/Q2VC1o2AjrwnQdRJA)  |
 
 ## Talks
+### Headless Flipper - embeddable mobile devtools for your CI and beyond
+
+Flipper is a platform for debugging mobile and web apps. Half a year ago, we decided to split the electron monolith in two parts: a standalone server and a UI. In this talk, we'll cover why you need headless Flipper, what opportunities it unlocks for you. We’ll go over how Flipper can now be easily used for remote debugging, embedding, CI integration, and etc. We’ll overview how Flipper architecture transformed to support the migration, what Flipper is now, and how we plan to use it at Meta.
+
+- [Slides - 30 min](https://github.com/aigoncharov/talks/blob/master/Headless%20Flipper%20-%20embeddable%20mobile%20devtools%20for%20your%20CI%20and%20beyond.pdf)
+
 ### How to display a gazillion of metrics and keep your sanity
 
 Say, you have a distributed cluster of 100 nodes. Say, every node collects 100 metrics. Now, imagine a chart with all the metrics from all the nodes. Have you managed it? At Hazelcast, we have not ;)
