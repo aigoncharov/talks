@@ -6,6 +6,7 @@ Source code and other accessory materials for my talks.
 
 | Date | Event | Location | Laguage | Talk | Video | Photo |
 |------|-------|----------|---------|------|-------|-------|
+| 2022-06-15 | We Are Developers World Congress | Berlin, Germany | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
 | 2022-05-26 | plSwift | Wroclaw, Poland | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
 | 2021-06-08 | FoxDevs Meetup | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
 | 2021-06-04 | BeerJS Voronezh #4 | Voronezh, Russia | RU | How to advance your career | | [Photo](https://photos.app.goo.gl/2JmfREdGPauDGgPT9) |
