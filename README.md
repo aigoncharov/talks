@@ -6,6 +6,10 @@ Source code and other accessory materials for my talks.
 
 | Date | Event | Location | Laguage | Talk | Video | Photo |
 |------|-------|----------|---------|------|-------|-------|
+| 2022-09-02 | React Native Europe | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://youtu.be/uLicTDG5hSs?t=4570) |  |
+| 2022-08-23 | React Native London August 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://www.youtube.com/watch?v=n1XqdLL-3DI) |  |
+| 2022-08-23 | React Native London August 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
+| 2022-07-27 | FullStack eXchange 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
 | 2022-06-15 | We Are Developers World Congress | Berlin, Germany | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://www.youtube.com/watch?v=LaNB8hvqsaA) |  |
 | 2022-05-26 | plSwift | Wroclaw, Poland | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
 | 2021-06-08 | FoxDevs Meetup | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
