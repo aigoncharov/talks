@@ -36,7 +36,7 @@ Source code and other accessory materials for my talks.
 | 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) | [Photo](https://photos.app.goo.gl/Q2VC1o2AjrwnQdRJA)  |
 
 ## Talks
-### Applied gistory of the frontend
+### Applied history of the frontend
 
 New trends, frameworks, and libraries come, revolutionize the industry and eventually die. Did you ever think why? What key ideas make them so popular? What fundamental problems do they have that force them to be replaced? In this talk, we will create tiny live replicas of popular frameworks and libraries: starting from JQuery, and ending with React. We are going to overview how they function, put them through real-life scenarious, and reveal their bottlenecks. In the end, we will speculate about what the future might bring and try to peek into the frontend of tomorrow.
 
