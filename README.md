@@ -41,6 +41,7 @@ Source code and other accessory materials for my talks.
 New trends, frameworks, and libraries come, revolutionize the industry and eventually die. Did you ever think why? What key ideas make them so popular? What fundamental problems do they have that force them to be replaced? In this talk, we will create tiny live replicas of popular frameworks and libraries: starting from JQuery, and ending with React. We are going to overview how they function, put them through real-life scenarious, and reveal their bottlenecks. In the end, we will speculate about what the future might bring and try to peek into the frontend of tomorrow.
 
 - [Slides](https://docs.google.com/presentation/d/1qmqvw5J2_p5WX_KQyu9Lhvzt1R84D3HCS8nP_Uo9f2c/edit?usp=sharing)
+- [Source code](https://github.com/aigoncharov/talks/tree/master/applied-history-of-the-frontend)
 
 
 ### Headless Flipper - embeddable mobile devtools for your CI and beyond
