@@ -34,7 +34,6 @@ const defaultDirectives = {
       scope: true,
       link: function (el, scope, exp) {
         angular.getController(exp, scope);
-        scope.$digest();
       },
     };
   },
