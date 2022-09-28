@@ -126,11 +126,11 @@ class Scope {
   }
 
   $digest() {
-    var dirty, watcher, current, i;
+    let dirty;
     do {
       dirty = false;
       for (const watcher of this.#watchers) {
-        current = this.$eval(watcher.exp);
+        const current = this.$eval(watcher.exp);
         if (watcher.last !== current) {
           watcher.last = current;
           dirty = true;
