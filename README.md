@@ -4,36 +4,39 @@ Source code and other accessory materials for my talks.
 
 ## History
 
-| Date | Event | Location | Laguage | Talk | Video | Photo |
-|------|-------|----------|---------|------|-------|-------|
-| 2022-09-02 | React Native Europe | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://youtu.be/uLicTDG5hSs?t=4570) |  |
-| 2022-08-23 | React Native London August 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
-| 2022-07-27 | FullStack eXchange 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
-| 2022-06-15 | We Are Developers World Congress | Berlin, Germany | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://www.youtube.com/watch?v=LaNB8hvqsaA) |  |
-| 2022-05-26 | plSwift | Wroclaw, Poland | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |  |
-| 2021-06-08 | FoxDevs Meetup | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
-| 2021-06-04 | BeerJS Voronezh #4 | Voronezh, Russia | RU | How to advance your career | | [Photo](https://photos.app.goo.gl/2JmfREdGPauDGgPT9) |
-| 2021-05-14 | Dump 2021 | Ekaterinburg, Russia | RU | React: Lifting state up is killing your app |  | [Photo](https://photos.app.goo.gl/o8JRiHdVZetMamVs9) |
-| 2021-04-27 | Geekle React JS Case Study Festival | Online | EN | How to display a gazillion of metrics and keep your sanity |  |  |
-| 2021-04-20 | HolyJS Piter 2021 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
-| 2021-01-19 | React Round Up (Podcast) | Online | EN | Data Visualization at Scale | [Audio](https://devchat.tv/react-round-up/rru-131-data-visualization-at-scale-with-andrey-goncharov/) |  |
-| 2020-12-06 | DevFest Siberia 2020 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |  |
-| 2020-12-02 | React Finland 2020 - Online Mini-Conference #5 - Performance | Online | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=gg2aARkU5yE) |  |
-| 2020-09-03 | International JavaScript Conference | Online | EN | React: Lifting state up is killing your app |  |  |
-| 2020-06-25 | React Vienna | Online | EN | React: Lifting state up is killing your app |  |  |
-| 2020-06-02 | JNation 2020 | Online | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=Jj7-i5lhMpg) |  |
-| 2020-05-01 | Byteconf React 2020 | Online | EN | React: Lifting state up is killing your app | [Video](https://youtu.be/gKtr7I1PNIg) |  |
-| 2020-04-28 | Node.js SPb MeetUP11 | Online | RU | Strict mode in TypeScript or help your compiler help you | [Video](https://youtu.be/WQpnlpxYhaU?t=4597) |  |
-| 2020-04-20 | International JavaScript Conference (Online Edition) | Online | EN | Strict mode in TypeScript or help your compiler help you |  |  |
-| 2020-02-29 | Panda Meetup #39 Frontend | Innopolis, Russia | RU | Strict mode in TypeScript or help your compiler help you | [Video](https://www.youtube.com/watch?v=NnOwgRgdBII&t=4512s) | [Photo](https://photos.app.goo.gl/P1zNxZsYMunqDaUx7) |
-| 2020-02-05 | BeerJS Voronezh #2 | Voronezh, Russia | RU | Strict mode in TypeScript or help your compiler help you |  |  |
-| 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) | [Photo](https://photos.app.goo.gl/Rp2MCaHCBTGZgszA6) |
-| 2019-12-21 | BeerJS Voronezh #1 | Voronezh, Russia | RU | React: Form management in 2020 |  |  |
-| 2019-11-26 | ок.tech: Frontend Meetup #2 | Saint Petersburg, Russia | RU | React: Lifting state up is killing your app | [Video](https://ok.ru/video/2423294659179) | [Photo](https://photos.app.goo.gl/zzvaURZeAcqC1RHv7) |
-| 2019-11-20 | Panda Meetup #31 Frontend | Moscow, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/xFQf7ULcaT8) | [Photo](https://photos.app.goo.gl/H47RKdFeU7TNQpRD7) |
-| 2019-10-26 | Frontdays 2019 | Tolyatti, Russia | RU | React: Lifting state up is killing your app |  | [Photo](https://photos.app.goo.gl/rX4KQbFhumkKNRMS6)  |
-| 2019-10-18 | RIF VRN 2019 | Voronezh, Russia | RU | NodeJS logging made right | [Video](https://youtu.be/gZw-iGUzKII) | [Photo](https://photos.app.goo.gl/sF9SuJ6sz6Z8jQ6y8) |
-| 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) | [Photo](https://photos.app.goo.gl/Q2VC1o2AjrwnQdRJA)  |
+| Date | Event | Location | Laguage | Talk | Links |
+|------|-------|----------|---------|------|-------|
+| 2022-11-10 | DevCon | Bucharest, Romania | EN | Applied history of the frontend | |
+| 2022-09-26 | International JavaScript Conference | New York, USA | EN | Applied history of the frontend | |
+| 2022-09-26 | International JavaScript Conference | New York, USA | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | |
+| 2022-09-02 | React Native Europe | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://youtu.be/uLicTDG5hSs?t=4570) |
+| 2022-08-23 | React Native London August 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |
+| 2022-07-27 | FullStack eXchange 2022 | London, UK | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |
+| 2022-06-15 | We Are Developers World Congress | Berlin, Germany | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | [Video](https://www.youtube.com/watch?v=LaNB8hvqsaA) |
+| 2022-05-26 | plSwift | Wroclaw, Poland | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond |  |
+| 2021-06-08 | FoxDevs Meetup | Online | RU | How to display a gazillion of metrics and keep your sanity |  |
+| 2021-06-04 | BeerJS Voronezh #4 | Voronezh, Russia | RU | How to advance your career | |
+| 2021-05-14 | Dump 2021 | Ekaterinburg, Russia | RU | React: Lifting state up is killing your app |  |
+| 2021-04-27 | Geekle React JS Case Study Festival | Online | EN | How to display a gazillion of metrics and keep your sanity |  |
+| 2021-04-20 | HolyJS Piter 2021 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |
+| 2021-01-19 | React Round Up (Podcast) | Online | EN | Data Visualization at Scale | [Audio](https://devchat.tv/react-round-up/rru-131-data-visualization-at-scale-with-andrey-goncharov/) |
+| 2020-12-06 | DevFest Siberia 2020 | Online | RU | How to display a gazillion of metrics and keep your sanity |  |
+| 2020-12-02 | React Finland 2020 - Online Mini-Conference #5 - Performance | Online | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=gg2aARkU5yE) |
+| 2020-09-03 | International JavaScript Conference | Online | EN | React: Lifting state up is killing your app |  |
+| 2020-06-25 | React Vienna | Online | EN | React: Lifting state up is killing your app |  |
+| 2020-06-02 | JNation 2020 | Online | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=Jj7-i5lhMpg) |
+| 2020-05-01 | Byteconf React 2020 | Online | EN | React: Lifting state up is killing your app | [Video](https://youtu.be/gKtr7I1PNIg) |
+| 2020-04-28 | Node.js SPb MeetUP11 | Online | RU | Strict mode in TypeScript or help your compiler help you | [Video](https://youtu.be/WQpnlpxYhaU?t=4597) |
+| 2020-04-20 | International JavaScript Conference (Online Edition) | Online | EN | Strict mode in TypeScript or help your compiler help you |  |
+| 2020-02-29 | Panda Meetup #39 Frontend | Innopolis, Russia | RU | Strict mode in TypeScript or help your compiler help you | [Video](https://www.youtube.com/watch?v=NnOwgRgdBII&t=4512s) |
+| 2020-02-05 | BeerJS Voronezh #2 | Voronezh, Russia | RU | Strict mode in TypeScript or help your compiler help you |  |
+| 2020-01-24 | AgentConf 2020 | Dornbirn, Austria | EN | React: Lifting state up is killing your app | [Video](https://www.youtube.com/watch?v=3JEQlKGcbHQ) |
+| 2019-12-21 | BeerJS Voronezh #1 | Voronezh, Russia | RU | React: Form management in 2020 |  |
+| 2019-11-26 | ок.tech: Frontend Meetup #2 | Saint Petersburg, Russia | RU | React: Lifting state up is killing your app | [Video](https://ok.ru/video/2423294659179) |
+| 2019-11-20 | Panda Meetup #31 Frontend | Moscow, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/xFQf7ULcaT8) |
+| 2019-10-26 | Frontdays 2019 | Tolyatti, Russia | RU | React: Lifting state up is killing your app |  |
+| 2019-10-18 | RIF VRN 2019 | Voronezh, Russia | RU | NodeJS logging made right | [Video](https://youtu.be/gZw-iGUzKII) |
+| 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) |
 
 ## Talks
 ### Applied history of the frontend
