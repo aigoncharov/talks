@@ -6,6 +6,7 @@ Source code and other accessory materials for my talks.
 
 | Date | Event | Location | Laguage | Talk | Links |
 |------|-------|----------|---------|------|-------|
+| 2024-01-29 | BeerJS Voronezh | Voronezh, Russia, | RU | 10 правил инженера-прагматика или как перестать мечтать и начать приносить пользу в большой компании | |
 | 2022-11-10 | DevCon | Bucharest, Romania | EN | Applied history of the frontend | |
 | 2022-09-26 | International JavaScript Conference | New York, USA | EN | Applied history of the frontend | |
 | 2022-09-26 | International JavaScript Conference | New York, USA | EN | Headless Flipper - embeddable mobile devtools for your CI and beyond | |
@@ -39,6 +40,11 @@ Source code and other accessory materials for my talks.
 | 2019-09-14 | meta/conf frontend meetup 2019 | Voronezh, Russia | RU | React: Lifting state up is killing your app | [Video](https://youtu.be/8mt-_FBrd4E) |
 
 ## Talks
+### 10 правил инженера-прагматика или как перестать мечтать и начать приносить пользу в большой компании
+Поговорим о том, что такое успех в большой компании, и почему он слабо кореллирует с чистотой кода или архитектурными изысками. Расскажу о своем опыте работы в огромной корпорации, набитых шишках (и татуировках, если попросите ;)) и обретенном просветлении.
+
+- [Слайды](https://docs.google.com/presentation/d/1eS18Cfbf7ODJdgoacY5eVD90txFLgiF9AbGGcwHKOHA/edit?usp=sharing)
+
 ### Applied history of the frontend
 
 New trends, frameworks, and libraries come, revolutionize the industry and eventually die. Did you ever think why? What key ideas make them so popular? What fundamental problems do they have that force them to be replaced? In this talk, we will create tiny live replicas of popular frameworks and libraries: starting from JQuery, and ending with React. We are going to overview how they function, put them through real-life scenarious, and reveal their bottlenecks. In the end, we will speculate about what the future might bring and try to peek into the frontend of tomorrow.
